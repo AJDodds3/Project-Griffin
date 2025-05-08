@@ -1,14 +1,52 @@
+# Virtual Environment
+fresh_env/
+venv/
+env/
+.env/
+.venv/
+
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual Environment
-venv/
+# PyTorch specific
+*.dll
+*.lib
+*.pth
+*.pt
+*.bin
 
-# VS Code settings 
+# IDE specific files
+.idea/
 .vscode/
+*.swp
+*.swo
 
-# Environment Variables
+# Environment variables
 .env
+.env.local
+
+# Logs
+*.log
+
+# Local development settings
+local_settings.py
+db.sqlite3
